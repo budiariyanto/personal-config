@@ -1,0 +1,63 @@
+" Start in insert mode
+start
+
+" Always show the status line
+"set laststatus=2
+
+"let g:molokai_original=1
+
+" Set standard encoding to utf8
+set encoding=utf8
+
+" Search scan will back to top if reach end of file
+set wrapscan
+
+" Highlight search results
+set hlsearch
+
+set ruler
+
+set wildmenu
+
+" Set colorscheme
+colorscheme molokai
+"colorscheme jellybeans
+
+" Show line numbers
+set nu
+
+" Enable cursorline
+"set cursorline
+
+" Enable file autodetection for syntax highlighting
+filetype on
+
+" Enable syntax highlighting
+syntax on
+
+" Use spaces instead of tabs
+set expandtab
+
+" 1 tab == 4 spaces
+set shiftwidth=4
+set tabstop=4
+
+" Be smart when using tabs
+set smarttab
+
+" Auto indent
+set ai
+
+" Smart indent
+set si
+
+" Wrap lines
+set wrap
+
+" Disabling auto backup
+set nobackup
+set nowb
+set noswapfile
+
+set undolevels=1000
+

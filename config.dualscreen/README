@@ -1,0 +1,15 @@
+This configuration used when using ArchLinux
+
+Try using monitor-tv-xrandr.conf if:
+- You have intel VGA card on your machine
+- Your tv connected with VGA cable
+
+Try using monitor-tv-nvidia conf if:
+- You have nvidia VGA card on your machine
+- Your tv connected with VGA cable
+
+Edit the configuration if you change the connector cable, e.g HDMI
+The device identifier may be change prior to connected cable type.
+
+Use simple application named cvt to get proper modeline for your monitor.
+
