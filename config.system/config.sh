@@ -8,3 +8,4 @@ export ENV_GOPATH="/data/development/gopkg"
 
 export SETUP_HOSTNAME="beaver"
 export SETUP_DE_SESSION="cinnamon-session"
+export DEFAULT_USER="budi"
