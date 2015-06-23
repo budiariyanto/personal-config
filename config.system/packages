@@ -3,6 +3,7 @@
 
 xorg-server
 xorg-xinit
+abs
 cinnamon
 nemo-fileroller
 unrar
@@ -14,6 +15,8 @@ sudo
 ttf-dejavu
 ttf-droid
 ttf-ubuntu-font-family
+evince
+gnome-screenshot
 gstreamer0.10
 gstreamer0.10-base-plugins
 gstreamer0.10-good-plugins
@@ -29,6 +32,7 @@ gnome-terminal
 fcron
 gedit
 moc
+youtube-dl
 arch-wiki-docs
 arch-wiki-lite
 git
