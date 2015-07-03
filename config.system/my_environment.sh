@@ -13,4 +13,4 @@ echo 'export PATH=$PATH:$GRADLE_HOME/bin' >> env
 echo 'export PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools' >> env
 echo 'export PATH=$PATH:$GOROOT/bin' >> env
 
-cp env /etc/profile.d
+echo "cp env /etc/profile.d"
