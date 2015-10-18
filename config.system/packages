@@ -1,52 +1,89 @@
 # List of required packages
 # Comment unneded packages with '#' or just remove it.
 
+# desktop environment
 xorg-server
 xorg-xinit
-abs
 cinnamon
 nemo-fileroller
+
+# development tools
+git
+ack
+
+# text editor
+gedit
+vim
+libreoffice-fresh
+
+# fonts
 adobe-source-han-sans-otc-fonts
-unrar
-wget
-openssh
-tmux
-ufw
-makepkg
-base-devel
-sudo
+adobe-source-code-pro-fonts
 ttf-dejavu
 ttf-droid
 ttf-ubuntu-font-family
-evince
-gthumb
+
+# server tools
+openssh
+gnupg
+sudo
+gnome-terminal
+usbutils
+fcron
+tmux
+
+# web browser
+firefox
+
+# network
+networkmanager
+network-manager-applet
+gnome-keyring
+usb_modeswitch
+ufw
+wget
+nginx
+
+# virtualization
+virtualbox
+
+# arch linux packaging utilities
+abs
+base-devel
+makepkg
+
+# arch linux wiki
+arch-wiki-docs
+arch-wiki-lite
+
+# other tools
 gnome-screenshot
+unrar
+p7zip
+mediawiki
+php-fpm
+
+# video driver
+nvidia
+
+# multimedia
+gthumb
+moc
+youtube-dl
+vlc
+evince
 gstreamer0.10
 gstreamer0.10-base-plugins
 gstreamer0.10-good-plugins
 gstreamer0.10-bad-plugins
 gstreamer0.10-ugly-plugins
 gstreamer0.10-ffmpeg-plugins
-networkmanager
-network-manager-applet
-gnome-keyring
-usb_modeswitch
-usbutils
-gnome-terminal
-fcron
-gedit
-moc
-youtube-dl
-arch-wiki-docs
-arch-wiki-lite
-git
-vim
-vlc
+flac
+
+# database
 postgresql
 pgadmin3
-chromium
-nginx
-libreoffice-fresh
-nvidia
+
+# game emulator
 snes9x-gtk
 pcsxr
