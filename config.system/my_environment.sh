@@ -1,4 +1,5 @@
 echo "Setting up environment variables..."
+source config.sh
 
 echo "export JAVA_HOME=${ENV_HOME_JAVA}" >> env
 echo "export M2_HOME=${ENV_HOME_MAVEN}" >> env
@@ -12,5 +13,6 @@ echo 'export PATH=$PATH:$M2_HOME/bin' >> env
 echo 'export PATH=$PATH:$GRADLE_HOME/bin' >> env
 echo 'export PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools' >> env
 echo 'export PATH=$PATH:$GOROOT/bin' >> env
+echo 'export PATH=$PATH:$GOPATH/bin' >> env
 
-echo "cp env /etc/profile.d"
+mv env /etc/profile.d/my_environment.sh

@@ -6,9 +6,11 @@ xorg-xinit
 abs
 cinnamon
 nemo-fileroller
+adobe-source-han-sans-otc-fonts
 unrar
 wget
 openssh
+tmux
 ufw
 makepkg
 base-devel
@@ -40,7 +42,11 @@ arch-wiki-lite
 git
 vim
 vlc
+postgresql
+pgadmin3
 chromium
 nginx
 libreoffice-fresh
 nvidia
+snes9x-gtk
+pcsxr
