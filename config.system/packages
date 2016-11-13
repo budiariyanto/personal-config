@@ -1,39 +1,63 @@
 # List of required packages
 # Comment unneded packages with '#' or just remove it.
 
-xorg-server
-xorg-xinit
-cinnamon
-nemo-fileroller
-unrar
-openssh
-makepkg
-base-devel
-sudo
-ttf-dejavu
-ttf-droid
-ttf-ubuntu-font-family
-gstreamer0.10
-gstreamer0.10-base-plugins
-gstreamer0.10-good-plugins
-gstreamer0.10-bad-plugins
-gstreamer0.10-ugly-plugins
-gstreamer0.10-ffmpeg-plugins
-networkmanager
-network-manager-applet
-gnome-keyring
-usb_modeswitch
-usbutils
-gnome-terminal
-fcron
-gedit
-moc
-arch-wiki-docs
-arch-wiki-lite
+# development tools
 git
+silversearcher-ag
+#nodejs
+php
+php-fpm
+php-xcache
+php-pgsql
+php-gd
+
+# text editor
 vim
-vlc
-chromium
+
+# fonts
+#adobe-source-han-sans-otc-fonts
+#adobe-source-code-pro-fonts
+#ttf-dejavu
+#ttf-droid
+#ttf-ubuntu-font-family
+
+# server tools
+tmux
+curl
+htop
+
+#web-browser
+#google-chrome-stable
+
+# network
+ufw
 nginx
-libreoffice-fresh
-nvidia
+
+# virtualization
+dkms
+virtualbox
+
+# other tools
+unrar
+p7zip-full
+p7zip-rar
+unzip
+mediawiki
+
+# video driver
+# nvidia
+
+# multimedia
+cmus
+youtube-dl
+flac
+skype
+spotify-client
+
+# database
+postgresql
+pgadmin3
+
+# game emulator
+snes9x-gtk
+pcsxr
