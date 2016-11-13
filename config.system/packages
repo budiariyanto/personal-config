@@ -1,84 +1,58 @@
 # List of required packages
 # Comment unneded packages with '#' or just remove it.
 
-# desktop environment
-xorg-server
-xorg-xinit
-cinnamon
-nemo-fileroller
-
 # development tools
 git
-ack
+silversearcher-ag
+#nodejs
+php
+php-fpm
+php-xcache
+php-pgsql
+php-gd
 
 # text editor
-gedit
 vim
-libreoffice-fresh
 
 # fonts
-adobe-source-han-sans-otc-fonts
-adobe-source-code-pro-fonts
-ttf-dejavu
-ttf-droid
-ttf-ubuntu-font-family
+#adobe-source-han-sans-otc-fonts
+#adobe-source-code-pro-fonts
+#ttf-dejavu
+#ttf-droid
+#ttf-ubuntu-font-family
 
 # server tools
-openssh
-gnupg
-sudo
-gnome-terminal
-usbutils
-fcron
 tmux
+curl
+htop
 
-# web browser
-firefox
+#web-browser
+#google-chrome-stable
 
 # network
-networkmanager
-network-manager-applet
-gnome-keyring
-usb_modeswitch
 ufw
-wget
 nginx
 
 # virtualization
+dkms
 virtualbox
 
-# arch linux packaging utilities
-abs
-base-devel
-makepkg
-
-# arch linux wiki
-arch-wiki-docs
-arch-wiki-lite
-
 # other tools
-gnome-screenshot
 unrar
-p7zip
+p7zip-full
+p7zip-rar
+unzip
 mediawiki
-php-fpm
 
 # video driver
-nvidia
+# nvidia
 
 # multimedia
-gthumb
-moc
+cmus
 youtube-dl
-vlc
-evince
-gstreamer0.10
-gstreamer0.10-base-plugins
-gstreamer0.10-good-plugins
-gstreamer0.10-bad-plugins
-gstreamer0.10-ugly-plugins
-gstreamer0.10-ffmpeg-plugins
 flac
+skype
+spotify-client
 
 # database
 postgresql
