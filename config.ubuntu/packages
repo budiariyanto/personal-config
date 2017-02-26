@@ -1,0 +1,63 @@
+# List of required packages
+# Comment unneded packages with '#' or just remove it.
+
+# development tools
+git
+silversearcher-ag
+#nodejs
+php
+php-fpm
+php-xcache
+php-pgsql
+php-gd
+
+# text editor
+vim
+
+# fonts
+#adobe-source-han-sans-otc-fonts
+#adobe-source-code-pro-fonts
+#ttf-dejavu
+#ttf-droid
+#ttf-ubuntu-font-family
+
+# server tools
+tmux
+curl
+htop
+
+#web-browser
+#google-chrome-stable
+
+# network
+ufw
+nginx
+
+# virtualization
+dkms
+virtualbox
+
+# other tools
+unrar
+p7zip-full
+p7zip-rar
+unzip
+mediawiki
+
+# video driver
+# nvidia
+
+# multimedia
+cmus
+youtube-dl
+flac
+skype
+spotify-client
+
+# database
+postgresql
+pgadmin3
+
+# game emulator
+snes9x-gtk
+pcsxr
